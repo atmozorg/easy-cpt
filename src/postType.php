@@ -7,6 +7,8 @@ use WP_Post_Type;
 
 class PostType {
 
+	protected string $singular;
+	protected string $plural;
 
 	/**
 	 * Default arguments for custom post types.
